@@ -1,11 +1,12 @@
 'use client'
 
 import { cn } from '@/lib/utils'
+import { Category } from '@/types'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 type MainNavProps = {
-	data: any
+	data: Category[]
 }
 export default function MainNav({ data }: MainNavProps) {
 	const pathname = usePathname()
@@ -33,4 +34,4 @@ export default function MainNav({ data }: MainNavProps) {
 	)
 }
 
-//TODO : 7 40 51
+
