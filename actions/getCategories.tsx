@@ -13,4 +13,3 @@ export async function getCategories(): Promise<Category[]> {
 
 export default getCategories
 
-
