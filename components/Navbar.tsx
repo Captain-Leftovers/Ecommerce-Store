@@ -3,6 +3,8 @@ import Container from './ui/Container'
 import MainNav from './MainNav'
 import getCategories from '@/actions/getCategories'
 
+export const revalidate = 0
+
 export default async function Navbar() {
 	const categories = await getCategories()
 
@@ -14,12 +16,9 @@ export default async function Navbar() {
 						<p className="font-bold text-xl">STORE</p>
 					</Link>
 					<MainNav data={categories} />
+					<NavbarActions />
 				</div>
 			</Container>
 		</div>
 	)
 }
-
-
-
-//TODO : 7 45 00 
