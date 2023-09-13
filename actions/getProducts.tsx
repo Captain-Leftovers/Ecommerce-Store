@@ -22,7 +22,7 @@ export default async function getProducts(query:Query): Promise<Product[]> {
 		}
 	})
 
-	const res = await fetch(URL, { cache: 'no-store' })
+	const res = await fetch(url, { cache: 'no-store' })
 
 	return res.json()
 }
