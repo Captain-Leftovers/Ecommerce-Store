@@ -4,7 +4,6 @@ import { Product } from "@/types"
 import Image from "next/image"
 import IconButton from "./IconButton"
 import { Expand, ShoppingCart } from "lucide-react"
-import { todo } from "node:test"
 import Currency from "./Currency"
 
 
