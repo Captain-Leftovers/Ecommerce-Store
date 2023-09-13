@@ -1,20 +1,16 @@
-const formatter = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'AUD',
-    });
 
-
+import { currencyFormatter } from "@/lib/utils"
 
 
 type CurrencyProps = {
-    
+  value?: string | number
   }
-export default function Currency({}: CurrencyProps) {
+export default function Currency({value}: CurrencyProps) {
 
 
 return (
   <div className="font-semibold " >
-     Currency
+    {currencyFormatter.format(Number(value))}
   </div>
   )
 }
