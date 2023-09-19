@@ -7,6 +7,7 @@ import Button from '@/components/ui/Button'
 import Currency from '@/components/ui/Currency'
 import useCart from '@/hooks/useCart'
 import toast from 'react-hot-toast'
+import CartItem from './CartItem'
 
 export default function Summary() {
 	const searchParams = useSearchParams()
@@ -50,7 +51,7 @@ export default function Summary() {
 					<Currency value={totalPrice} />
 				</div>
 			</div>
-			<Button onClick={onCheckout} className="w-full mt-6 ">
+			<Button disabled={items.length === 0} onClick={onCheckout} className="w-full mt-6 ">
 				Checkout
 			</Button>
 		</div>
