@@ -15,7 +15,6 @@ export type Product = {
 	category: Category
 	name: string
 	price: string
-	// TODO check if price should be string after or change to number
 	isFeatured: boolean
 	size: Size
 	color: Color

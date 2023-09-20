@@ -7,4 +7,3 @@ export default function Container({ children }: ContainerProps) {
 }
 
 
-//TODO : add color to he container
