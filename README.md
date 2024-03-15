@@ -1,7 +1,8 @@
 
 <h1>Full Stack E-Commerce Store</h1>
-
+<p>   
 <img align="center" src="https://github.com/Captain-Leftovers/assets/blob/master/e-store.png" alt="e-store img" width="300" />
+</p>
 
 <p>E-Commerce store, built with Next.js 13 App Router, React, Tailwind, Prisma, and MySQL, offering a seamless shopping experience.</p>
 
