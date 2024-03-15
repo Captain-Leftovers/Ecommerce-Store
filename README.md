@@ -1,5 +1,5 @@
 
-<h1>Full Stack E-Commerce Store</h1>
+<h1 align="center">Full Stack E-Commerce Store</h1>
 <p align="center">   
 <img src="https://github.com/Captain-Leftovers/assets/blob/master/e-store.png" alt="e-store img" width="300" />
 </p>
